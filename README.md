@@ -8,12 +8,16 @@ A minimal, editorial dark theme for [Omarchy](https://omarchy.org): near-black s
 ```
 omarchy-theme-install https://github.com/MoozyDev/omarchy-hanko-vermillon-theme
 ```
-Works on its own (palette, wallpapers, previews, icons). The optional extras (bar icons, lock screen, desktop widgets, screensaver, sounds) live in the separate `omarchy-hanko-extras` repo.
+Works on its own (palette, wallpapers, previews, icons). For everything — bar that grows on hover, wide menu, screensaver, lock screen — use the one-command installer from [omarchy-hanko-extras](https://github.com/MoozyDev/omarchy-hanko-extras):
+
+```
+curl -fsSL https://raw.githubusercontent.com/MoozyDev/omarchy-hanko-extras/main/install.sh | bash -s vermillon
+```
 
 ## Contents
 - `colors.toml` — full palette (`mode = "dark"`)
 - `icons.theme` — `Yaru-red`
-- `backgrounds/` — 01 to 05, 3840×2160 + `-vertical` 2160×3840 (key content kept in a centred 9:16 band)
+- `backgrounds/` — 01 to 05, 3840×2160; `backgrounds/vertical/` — the same in 2160×3840 for vertical screens (kept out of the background picker, which only lists the top folder)
 - `webapps/`, `apps/` — 512 px icons (copy to `~/.local/share/applications/icons/`)
 - `boot/` — Limine colour block, Plymouth colours
 - `apps-themes/` — Spotify (Spicetify), Discord (Vesktop), Obsidian
