@@ -1,0 +1,35 @@
+/**
+ * @name Hanko · vermillon
+ * @description Thème Hanko pour Vesktop. Noirs, crème, accent #ff4a1c. Coins carrés.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+:root, .theme-dark {
+  --background-primary: #121010;
+  --background-secondary: #181514;
+  --background-secondary-alt: #0c0a0a;
+  --background-tertiary: #0c0a0a;
+  --background-floating: #0c0a0a;
+  --background-modifier-hover: #1f1b1a;
+  --background-modifier-selected: #2a2523;
+  --background-modifier-accent: #3a3330;
+  --channeltextarea-background: #2a2523;
+  --text-normal: #f1e7d6;
+  --text-muted: #b5aa9a;
+  --header-primary: #f1e7d6;
+  --header-secondary: #b5aa9a;
+  --interactive-normal: #b5aa9a;
+  --interactive-hover: #f1e7d6;
+  --interactive-active: #f1e7d6;
+  --channels-default: #b5aa9a;
+  --text-link: #f1e7d6;
+  --brand-500: #e8431c;
+  --brand-experiment: #e8431c;
+  --brand-560: #c2340f;
+  --mention-foreground: #ff4a1c;
+  --mention-background: color-mix(in srgb, #ff4a1c 18%, transparent);
+  --radius-xs: 0; --radius-sm: 0; --radius-md: 0; --radius-lg: 0;
+  --font-primary: 'Space Mono', monospace;
+  --font-display: 'Space Mono', monospace;
+}
+a { text-decoration: underline; text-decoration-color: #ff4a1c; text-underline-offset: 3px; }
+[class*="textArea"], [class*="channelTextArea"], [class*="button"] { border-radius: 0 !important; }

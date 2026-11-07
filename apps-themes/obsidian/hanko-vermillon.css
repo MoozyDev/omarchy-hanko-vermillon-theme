@@ -1,0 +1,16 @@
+/* Hanko · Vermillon — extrait CSS Obsidian (.obsidian/snippets/). Version 11e : accent seulement au survol et sur les cases cochées. */
+body {
+  --font-text-theme: 'Space Mono', monospace;
+  --h1-font: 'Anton', sans-serif; --h2-font: 'Anton', sans-serif; --h3-font: 'Anton', sans-serif;
+  --h1-color: #f1e7d6; --h2-color: #b5aa9a; --h3-color: #b5aa9a;
+  --link-color: #f1e7d6; --link-color-hover: #ff4a1c;
+  --link-decoration: underline;
+  --text-selection: #2a2523;
+  --interactive-accent: #f1e7d6;
+  --interactive-accent-hover: #ffffff;
+  --text-on-accent: #121010;
+  --checkbox-color: #e8431c;
+}
+.markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .cm-header { text-transform: uppercase; letter-spacing: 0; font-weight: 400; }
+.markdown-rendered a, .cm-hmd-internal-link { text-decoration-color: #6b625a; text-underline-offset: 3px; }
+.markdown-rendered a:hover { text-decoration-color: #ff4a1c; }

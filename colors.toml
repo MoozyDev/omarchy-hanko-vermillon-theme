@@ -1,0 +1,34 @@
+# Vermillon — thème Omarchy « Hanko »
+mode = "dark"
+
+background = "#121010"
+dark_background = "#0c0a0a"
+darker_background = "#070606"
+lighter_background = "#1e1a19"
+
+foreground = "#f1e7d6"
+dark_foreground = "#c9bfae"
+light_foreground = "#f7f0e4"
+bright_foreground = "#fffaf1"
+
+accent = "#ff4a1c"
+selection = "#3a1d14"
+muted = "#6b625a"
+
+red = "#ff5a4a"
+yellow = "#f2c84b"
+orange = "#ff8a3d"
+green = "#9cc77a"
+cyan = "#6cc4c0"
+blue = "#7aa2e8"
+magenta = "#e07ab8"
+brown = "#b08458"
+
+bright_red = "#ff7d70"
+bright_yellow = "#ffdb7a"
+bright_orange = "#ffa86b"
+bright_green = "#b7dc98"
+bright_cyan = "#93dbd7"
+bright_blue = "#9dbcf2"
+bright_magenta = "#ef9dcf"
+bright_brown = "#c9a07a"

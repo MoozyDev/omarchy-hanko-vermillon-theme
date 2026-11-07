@@ -1,0 +1,4 @@
+/* Hanko · Vermillon — coins carrés, texte crème. Accent réservé au titre en cours. */
+* { border-radius: 0 !important; }
+.main-trackList-playingIcon, .main-trackList-rowTitle.main-trackList-playing { color: var(--spice-button-active) !important; }
+.main-playButton-PlayButton button, .encore-bright-accent-set { background-color: var(--spice-text) !important; color: var(--spice-main) !important; }
