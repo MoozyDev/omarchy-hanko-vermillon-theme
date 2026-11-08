@@ -1,0 +1,16 @@
+# Hanko menu (specs/lanceur, choice B): black card, 2 px cream border,
+# selected row filled with the accent and black text, wallpaper dimmed 50 %.
+[menu]
+background                = "#121010"
+background-alpha          = 1.0
+text                      = "#f1e7d6"
+border                    = "#f1e7d6"
+border-alpha              = 1.0
+border-width              = 2
+scrim                     = "#121010"
+scrim-alpha               = 0.5
+selected-background       = "#ff4a1c"
+selected-background-alpha = 1.0
+selected-text             = "#121010"
+selected-border           = "#ff4a1c"
+selected-border-alpha     = 0.0

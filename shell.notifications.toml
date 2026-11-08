@@ -1,0 +1,9 @@
+# Hanko notifications (specs/notifications): cream card, black text, no border.
+[notifications]
+background       = "#f1e7d6"
+background-alpha = 1.0
+text             = "#121010"
+border           = "#f1e7d6"
+border-alpha     = 1.0
+border-width     = 0
+countdown        = "#ff4a1c"

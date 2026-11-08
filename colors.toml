@@ -32,3 +32,7 @@ bright_cyan = "#93dbd7"
 bright_blue = "#9dbcf2"
 bright_magenta = "#ef9dcf"
 bright_brown = "#c9a07a"
+
+# Window borders (looknfeel.md): cream when active, black otherwise, no gradient.
+hyprland_active_border = "#f1e7d6"
+hyprland_inactive_border = "#121010"
