@@ -1,0 +1,9 @@
+# Hanko bar (specs/barre): 32 px at any font size, black at 92 %, cream text.
+[bar]
+background       = "#121010"
+background-alpha = 0.92
+text             = "#f1e7d6"
+active           = "#ff5a4a"
+scale-with-font  = false
+size-horizontal  = 32
+size-vertical    = 32
